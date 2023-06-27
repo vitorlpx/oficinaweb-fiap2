@@ -1,0 +1,17 @@
+/* Elemento raíz da página. */
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-toggler {
+  border-width: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: 0;
+}
+
+.my-bgcolor {
+  background-color: var(--bs-red);
+}

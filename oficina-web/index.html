@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oficina Web 2.0 - F-SHOW</title>
+
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Chamada do Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Chamada do CSS do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Chamada do meu CSS -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+
+  <div class="container mb-5">
+
+    <nav class="navbar navbar-expand-lg my-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">F-Show</a>
+        <!-- Menu Sandwich -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-align-right"></i>
+        </button>
+        <!--------->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Vídeos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Led Zappelin</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Pink Floyd</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">The Beatles</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="my-bgcolor text-light my-4 p-3 rounded-3 display-1">F-Show</h1>
+    <p class="lead">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti animi, doloribus debitis sunt autem voluptate accusantium vitae officia soluta eaque harum nam dolore reiciendis exercitationem corporis dolorum nulla omnis asperiores, aspernatur delectus cupiditate magnam. Facere, alias. Alias enim quidem eligendi quod voluptate, dolore, illo nesciunt quo, dignissimos nulla quae.
+    </p>
+
+    <a href="#" class="btn btn-outline-danger btn-lg">Conheça o F-Show agora!</a>
+
+
+    <!-- Cards com Grid -->
+    <h2 class="my-4 display-5">Próximos shows</h2>
+  
+    <!-- Classe de linha (row) -->
+    <div class="row">
+      
+      <!-- 1°Card -->
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-3">
+        <div class="card">
+          <img src="./assets/img/cards/card1.jpg" class="card-img-top" alt="Show 1">
+          <div class="card-body">
+            <h5 class="card-title">Led Zeppelin</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Garantir ingresso</a>
+          </div>
+        </div>
+      </div>
+      <!-- Fim 1°Card -->
+
+      <!-- 2°Card -->
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-3">
+        <div class="card">
+          <img src="./assets/img/cards/card2.jpg" class="card-img-top" alt="Show 2">
+          <div class="card-body">
+            <h5 class="card-title">The Beatles</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Garantir ingresso</a>
+          </div>
+        </div>
+      </div>
+      <!-- Fim 2°Card -->
+
+      <!-- 3°Card -->
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-3" class=".col-xl-3">
+        <div class="card">
+          <img src="./assets/img/cards/card3.jpg" class="card-img-top" alt="Show 3">
+          <div class="card-body">
+            <h5 class="card-title">Pink Floyd</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Garantir ingresso</a>
+          </div>
+        </div>
+      </div>
+      <!-- Fim 3°Card -->
+
+      <!-- 4°Card -->
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-3">
+        <div class="card">
+          <img src="./assets/img/cards/card4.jpg" class="card-img-top" alt="Show 4">
+          <div class="card-body">
+            <h5 class="card-title">Queen</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Garantir ingresso</a>
+          </div>
+        </div>
+      </div>
+      <!-- Fim 4°Card -->
+
+    </div>
+
+
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
